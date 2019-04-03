@@ -1,4 +1,4 @@
-import RoboPiLib_pwm as RPL, math as m, time, stepper_control, sys, termios, tty
+import RoboPiLib_pwm as RPL, math as m, time, sys, termios, tty
 
 RPL.RoboPiInit("/dev/ttyAMA0",115200)
 
